@@ -1,0 +1,11 @@
+[project]
+name = "gpt-llm-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "faster-whisper>=1.2.0",
+    "jupyter>=1.1.1",
+    "whisper>=1.1.10",
+]
