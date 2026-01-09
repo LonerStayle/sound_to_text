@@ -4,5 +4,5 @@ def main():
 
 if __name__ == "__main__":
     main()
-    import Test as t
-    t.start()
+    import sound_to_text as sts
+    sts.start()

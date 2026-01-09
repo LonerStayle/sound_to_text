@@ -2,10 +2,20 @@ from faster_whisper import WhisperModel
 from pathlib import Path
 
 AUDIO_PATHS = [
-    "C:\\Users\\user\\Music\\음성 250903_090458.m4a",
-    "C:\\Users\\user\\Music\\음성 250903_120222.m4a",
-]
+    # "C:\\Users\\user\\Music\\음성 20250930_05.m4a",
 
+    # "C:\\Users\\user\\Music\\음성 20251001_01.m4a",
+    # "C:\\Users\\user\\Music\\음성 20251001_02.m4a",
+    # "C:\\Users\\user\\Music\\음성 20251001_03.m4a",
+
+    # "C:\\Users\\user\\Music\\음성 20251002_01.m4a",
+    # "C:\\Users\\user\\Music\\음성 20251002_02.m4a",
+    # "C:\\Users\\user\\Music\\음성 20251002_03.m4a",
+    # r"C:\PythonProject\sound_to_text\유료강의 1_28122405_.mp4"
+    # r"C:\PythonProject\sound_to_text\유료 강의\2강\유료강의 2.mp4"
+    # r"C:\PythonProject\sound_to_text\유료강의 2.mp4"
+    r"C:\PythonProject\sound_to_text\유료강의 3강.mp4"
+]
 
 # 모델 크기: tiny / base / small / medium / large-v3
 # 한국어면 small~medium 이상 권장, 정확도는 large-v3가 최고
